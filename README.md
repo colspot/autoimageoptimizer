@@ -4,7 +4,10 @@ Optimize images dynamically
 Basic usage:
 
 Step 1: Place imagecompressor.php to root of your web directory.
-Step 2: Some jQuery!
+
+Step 2: Time for some Some jQuery!
+
+```
 $('imageclass').autooptimizer({
   script: 'imagecompressor.php', /*Path to compressor script file*/
   breakpoints: [
@@ -26,3 +29,7 @@ $('imageclass').autooptimizer({
     },
     ...
   ]
+  });
+```
+
+Step 3: Enjoy! :)
